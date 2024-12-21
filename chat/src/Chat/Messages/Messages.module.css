@@ -1,0 +1,44 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.messages {
+    grid-area: m;
+    height: 80%;
+    width: 100%;
+}
+.chat_history {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.send {
+    height: 20%;
+    width: 100%;
+}
+
+.accepted {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(201, 201, 201);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.sent {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(201, 201, 201);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.message {
+    padding: 0 5px;
+}

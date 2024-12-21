@@ -1,0 +1,25 @@
+.container {
+
+}
+
+header {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(37, 37, 37, 1) 56%, rgba(139, 139, 139, 1) 100%);
+}
+.container {
+    padding: 10px 10px;
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_info a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 50px;
+}

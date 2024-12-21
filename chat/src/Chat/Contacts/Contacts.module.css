@@ -1,0 +1,47 @@
+.search {
+    padding: 15px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search_area {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 65%;
+}
+
+.search_btn {
+    border: 1px solid black;
+    background-color: rgb(185, 185, 185);
+    padding: 0 5px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.contacts {
+    border-right: 1px solid black;
+    height: 100%;
+    grid-area: c;
+}
+
+.contact {
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px 10px;
+    transition: 0.1s ease-in;
+}
+
+.contact:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+.checked {
+    background-color: rgb(185, 185, 185);
+}
+
+.active {
+    background-color: rgb(136, 136, 136);
+}

@@ -1,0 +1,11 @@
+.chatMessage {
+    display: grid;
+    grid-template-areas:
+            "c m"
+            "f f";
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 10fr 2fr;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
